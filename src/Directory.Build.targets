@@ -1,0 +1,21 @@
+<Project>
+    <PropertyGroup>
+        <CoreVersion>6.3.2</CoreVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <!-- Core-->
+        <PackageReference Update="Core.Domain" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.Domain.Dto" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.Domain.Services" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.QueryBuilder" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.System.Api" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.System.Nats" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.System" Version="$(CoreVersion)" />
+        <PackageReference Update="Core.Infrastructure" Version="$(CoreVersion)" />
+        <!-- Npgsql -->
+        <PackageReference Update="Npgsql" Version="6.0.8" />
+        <PackageReference Update="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
+        <PackageReference Update="Microsoft.IdentityModel.Tokens" Version="6.33.0" />
+        <PackageReference Update="System.IdentityModel.Tokens.Jwt" Version="6.33.0" />
+    </ItemGroup>
+</Project>
